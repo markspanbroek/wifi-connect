@@ -1,6 +1,6 @@
 FROM balenalib/%%RESIN_MACHINE_NAME%%-debian
 
-RUN install_packages dnsmasq wireless-tools
+RUN install_packages dnsmasq wireless-tools network-manager
 
 WORKDIR /usr/src/app
 
